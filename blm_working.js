@@ -1,12 +1,18 @@
+/**********************************/
+// Author: Timothy Carambat
+// Contact: rambat1010@gmail.comb
+// License: MIT
+// Message: I hope this is a useful script that can be included
+// into your site to show solidarity and support on your sites.
+/**********************************/
 function getBLMScriptParams(a){var b=document.getElementsByTagName("script");for(var i=0;i<b.length;i++){if(b[i].src.indexOf("/"+a)>-1){var c=b[i].src.split("?").pop().split("&");var p={};for(var j=0;j<c.length;j++){var d=c[j].split("=");p[d[0]]=d[1]}return p}}return{}}
-
 
 const BLMBANNER = () => {
   const params = getBLMScriptParams('blm.js')
   const position = params.position || 'fixed'
   const bgColor = params.bgColor || '#000'
   const textColor = params.textColor || '#FFF'
-  const customMsg = decodeURI(params.msg) || 'We Stand In Solidarity With the Protestors.'
+  const customMsg = decodeURI(params.msg) || 'We Stand In Solidarity.'
 
   var css = document.createElement('style');
   css.type = 'text/css';
