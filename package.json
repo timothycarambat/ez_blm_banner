@@ -1,0 +1,23 @@
+{
+  "name": "blm_banner",
+  "version": "1.0.0",
+  "description": "Automatically appends a banner to the top of your page showing support for justice and equality with a simple script",
+  "main": "blm.js",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "build": "uglifyjs blm_working.js -o blm.js"
+  },
+  "keywords": [
+    "blm",
+    "blacklivesmatter",
+    "justice",
+    "movement",
+    "2020protests",
+    "support"
+  ],
+  "author": "Timothy Carambat",
+  "license": "MIT"
+}
