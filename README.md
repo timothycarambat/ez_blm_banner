@@ -19,6 +19,6 @@ The parameters `position`, `bgColor`,and `textColor` all accept CSS parameters a
 **Example**
 `<script type="text/javascript" src='https://blm-banner.s3-us-west-2.amazonaws.com/blm.js?position=relative&bgColor=red&textColor=#FFF&msg=We Support Justice.'></script>`
 
-![Image of Banner](https://github.com/timothycarambat/ez_blm_banner/screenshot.png)
+![Image of Banner](https://github.com/timothycarambat/ez_blm_banner/blob/master/screenshot.png)
 
 The endpoint is an AWS bucket with CORS enabled so you may access it freely.
